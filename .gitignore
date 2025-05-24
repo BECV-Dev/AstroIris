@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Archivos de compilación
+dist/
+build/
+
+# Configuración de entorno
+.env
+.env.local
+.env.*.local
+
+# Otros archivos temporales
+*.bak
+*.swp
+*.swo

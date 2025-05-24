@@ -1,0 +1,14 @@
+services:
+  horoscopo-bot:
+    build: .
+    container_name: horoscopo-bot
+    platform: linux/amd64
+    env_file:
+      - .env
+    volumes:
+      - ./tokens:/app/tokens
+    restart: unless-stopped
+    environment:
+      - TZ=America/Mexico_City
+    ports:
+      - "3000:3000"
